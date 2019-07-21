@@ -87,7 +87,7 @@ export default {
       console.log('this.$Modal.info = ', this.$Modal.info)
     },
     edit (row) {
-      console.log('row', row)
+      console.log('edit 成功')
     },
     remove (row) {
       /*
@@ -99,7 +99,7 @@ export default {
       console.log('itemId', itemId)
 
       deleteTodo(itemId).then(res => {
-        console.log('delect 成功')
+        console.log('delete 成功')
         // 删除以后重新获取新的列表
         this.getData()
       })
