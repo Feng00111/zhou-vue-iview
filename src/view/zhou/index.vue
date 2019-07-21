@@ -88,6 +88,7 @@ export default {
     },
     edit (row) {
       console.log('edit 成功')
+      console.log('edit 成功')
     },
     remove (row) {
       /*
